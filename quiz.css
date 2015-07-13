@@ -1,0 +1,33 @@
+/* 1. Open the quiz.css file in Sublime text.
+  2. Change the font for the entire document to Arial.
+  3. Change the font for the sonnet sections to Tahoma.
+  4. Pick your favorite line from each sonnet and highlight it with the color of your choice.
+  5. The main body should take up 65% width.
+  6. The right sidebar should take up 30% width.
+  7. Commit the file to git and push it to Github. */
+
+
+  body {
+  	font-family: Arial;
+  	width: 65%
+  	float: left;
+  	overflow: scroll;
+  }
+
+  .text {
+
+  	font-family: Tahoma;
+  	border: 1px solid black;
+  }
+
+  	.favline {
+  		background-color: red;
+  		border: 1px solid black;
+  	}
+
+  	.side {
+  		width: 30%;
+  		border: 1px solid black;
+  		float: right;
+  		height: 400px;
+}
